@@ -12,7 +12,7 @@ class CellPhone:
     # The set_manufact method accepts an argument for
     # the phone's manufacturer
         
-    def set_manufact(self, maunfact):
+    def set_manufact(self, manufact):
         self.__manufact = manufact
 
     # The set_model method accepts an argument for
@@ -38,5 +38,5 @@ class CellPhone:
     def get_retail_price(self):
         return self.__retail_price
     
-    
+
         
